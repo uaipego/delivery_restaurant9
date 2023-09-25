@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { /*cabeçalho logo + menús*/
+    padding: 16px 0;
+    background-color: rgb(212, 0, 0);
+}
+
+header nav li { /*menús geral*/
+    display: inline; /*para colocar um do lado do outro*/
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav li a { /*menús tipografia*/
+    color: aliceblue;
+    text-decoration: none; /*para remover o sublinhado*/
+
+}
+
+.logotipo {
+    width: 250px;
+}
+
+.container,
+.presentation { /*centralizar e distribuir o cabeçalho*/
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container { /*alinhar e distribuir os menús + logo*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .presentation { /*alinhar os textos e imagem section 1*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .presentation {
+    padding: 30px 0px;
+}
+
+.img-front {
+    height: 600px;
+}
+
+section h1 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 100px;
+    line-height: 95% ;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.articles { /*alinhar as imagens da Categorias*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article img {/*tamanho das imagens da Categorias*/
+    height: 180px;
+}
+
+section h3 { /*espaçamentos das Categorias*/
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+#title-cat {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+section .container {
+    padding: 60px 0px;
+}
+
+.articles article a { /*botões das categorias*/
+    background-color: #ffbc04;
+    color: #000000;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block; /*melhorar posicionamento para não sobrepor os textos*/
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#categorias {
+    background-color: rgb(212, 0, 0);
+}
+
+.contact-methods { /*categoria contatos*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#contato {
+    color: #000000;
+}
+
+form input,
+form textarea,
+form button {
+	display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: #000000;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: rgb(255, 172, 47);
+}
+
+.social-links img { 
+    height: 34px;
+}
+
+.social-links li {/*remover "pontinhos" das redes sociais*/
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(212, 0, 0);
+    color: aliceblue;
+    padding: 26px 0;
+    text-align: center;
+}
+
